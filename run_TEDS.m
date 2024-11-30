@@ -66,18 +66,18 @@ params.t_features = {
 };
 
 % Image sample parameters
-params.search_area_shape = 'square';    % The shape of the samples
+params.search_area_shape = 'square';    
 % params.search_area_shape = 'proportional';
-% params.search_area_scale = 4.2;         % The scaling of the target size to get the search area
-params.search_area_scale = 3.2;         % The scaling of the target size to get the search area
-params.min_image_sample_size = 200^2;   % Minimum area of image samples
-params.max_image_sample_size = 250^2;   % Maximum area of image samples
+% params.search_area_scale = 4.2;         
+params.search_area_scale = 3.2;         
+params.min_image_sample_size = 200^2;   
+params.max_image_sample_size = 250^2;   
 params.mask_window_min = 1e-3;           
 
 % Detection parameters
-params.refinement_iterations = 1;       % Number of iterations used to refine the resulting position in a frame
-params.newton_iterations = 5;           % The number of Newton iterations used for optimizing the detection score
-params.clamp_position = false;          % Clamp the target position to be inside the image
+params.refinement_iterations = 1;      
+params.newton_iterations = 5;           
+params.clamp_position = false;          
 
 % Learning parameters
 params.output_sigma_factor = [1/16 1/4];	
