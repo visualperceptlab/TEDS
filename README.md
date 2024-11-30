@@ -13,4 +13,4 @@ url = { https://www.sciencedirect.com/science/article/pii/S0893608024007639 },
 author = {Yuanming Zhang and Huihui Pan and Jue Wang}
 }
 
-We greatly appreciate the upfront code work provided by the trackers STRCF, UPDT, ECO, and GFSDCF, which significantly helped us implement the algorithms.
+We appreciate the upfront code work provided by the trackers STRCF, UPDT, ECO, and GFSDCF, which greatly helped us implement the algorithms.
