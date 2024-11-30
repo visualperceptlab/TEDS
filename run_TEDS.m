@@ -106,9 +106,7 @@ params.scale_step_p = 1.02;
 params.thr=0.75;
 params.sco_thr=0.15;
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% 1.15 diving41.2
-% GPU
-params.use_gpu = true;              
+params.use_gpu = false;              
 params.gpu_id = [];               
 
 % Initialize
