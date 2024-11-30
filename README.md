@@ -12,3 +12,5 @@ doi = { https://doi.org/10.1016/j.neunet.2024.106839 },
 url = { https://www.sciencedirect.com/science/article/pii/S0893608024007639 },
 author = {Yuanming Zhang and Huihui Pan and Jue Wang}
 }
+
+We greatly appreciate the helpful references provided by the trackers UPDT, ECO, and GFSDCF.
