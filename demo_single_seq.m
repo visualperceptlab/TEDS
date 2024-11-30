@@ -6,8 +6,7 @@ setup_paths();
 
 % Choose and load video information
 % base_path  = 'F:/low_res'; %benchmark path
-base_path  = 'E:/BaiduNet_doc/OTB/OTB2015'; %benchmark path
-% base_path  = 'F:/data/VOT/VOT2018';
+base_path  = 'E:/OTB/OTB2015'; %benchmark path
 video = choose_video(base_path);
 video_path = [base_path '/' video];
 [seq, gt_boxes] = load_video(video_path,video);
